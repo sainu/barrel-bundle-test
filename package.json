@@ -1,0 +1,21 @@
+{
+  "name": "bundle-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack -c webpack.config.development.js",
+    "build:prod": "webpack -c webpack.config.production.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "webpack-bundle-analyzer": "^4.10.2"
+  }
+}
